@@ -29,4 +29,4 @@ The model is built from a dataset from Kaggle and this dataset is divided into t
 
 
 
-![n and p](https://user-images.githubusercontent.com/124452311/219939041-f848df48-4505-4d5a-bea0-94f5cb245545.png)
+
