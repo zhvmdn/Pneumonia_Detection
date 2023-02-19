@@ -24,6 +24,10 @@ We used the GPU effectively in this project. First, we loaded the image data, fo
 The model is built from a dataset from Kaggle and this dataset is divided into train, test and validation data. Overall, there are 5856 X ray images (JPEG) and each of the 3 folders are breached into 2 subfolders (Normal / Pneumonia), containing first chest X ray images of a healthy person and second is for the X-rays of a person with  pneumonia. Train set has 3875 x-ray images in class Pneumonia and 1341 x-ray images in class Normal. Test set has 390 x-ray images in class Pneumonia and 234 x-ray images in class Normal. Validation set has 8 x-ray images in class Pneumonia and 8 x-ray images in class Normal. As the validation data set has only 16 images,  validation images were moved to the train set. Then the training set was splitted into training and validation (90% - training, 10% - validation) in the ImageDataGenerator. Figure 1 depicts what x-rays of a person with pneumonia and a healthy person look like.
 
 
+![2023-02-19 (3)](https://user-images.githubusercontent.com/124452311/219939283-b6d361c7-9771-4844-88f0-fc15d524d089.png)
+
+
+
 ![bar char](https://user-images.githubusercontent.com/124452311/219938830-02ba38ba-d18e-4fdc-a344-527ac6d8cc14.png)
 
 
