@@ -66,3 +66,8 @@ As mentioned, our project is based on the method of training using CNN to identi
 1) According to the data, as you can see, the model works very well, it is worth mentioning that in our model 49 photos do not take out the correct data. In the future, you can improve the results at a higher accuracy by resolving this error.
 2) Next, during the construction of the model, or rather in the image data generator, we encountered problems with the choice of parameters. We tried to choose a better generator, thereby using, for example, rotation ranges, rescales and so on.
 3) And finally, since our dataset was not balanced, we faced distribution problems. Having solved this problem, we came to the conclusion that we need more X-ray images for a more accurate result and preferably with equal data.
+
+### Next steps 
+In our project, as shown earlier, we used the CNN model. In the further development of the project, we would like to use transfer learning from a pre-trained model (Figure 12). Therefore, we can achieve a high level of performance, even  with a small amount of data. During the training of this model, it will distinguish our data sets with accurate characteristics, and, naturally, less errors will be detected proportionally to this. In addition, we believe that using other datasets related to our project will be advantageous in training.
+ Thus, showing these models to the very specialists who are fond of this and passing a test of strength with them. The idea is that more models will be created from different datasets and will be checked by specialists that we encountered during our project.
+
