@@ -39,6 +39,13 @@ For our project, we have created Convolutional Neural Networks architecture. A C
 ## Results 
 After training, we obtained the plots of accuracy and loss of training and validation. As can be seen in  Figure 4, training accuracy or the number of correct predictions increases, and its loss or summation of errors decreases. When it comes to validation, its accuracy rises and loss decreases, but it fluctuates a little. In 10 epochs, the model achieved  94% of training and 91% of  validation accuracy.
 
+![fig4](https://user-images.githubusercontent.com/124452311/219940047-7bf0143a-272b-4bf3-99de-1fc78164fc4d.png)
+We made an evaluation on the test set. Results showed that we got test accuracy of 92.15%, test loss of 0.22, test precision of 93.38%, and test recall of 94.10%.
+![fig5](https://user-images.githubusercontent.com/124452311/219940051-64f0cc35-f0d0-4f33-bd6a-f1de611e3775.png)
+Classification report details on the normal and pneumonia class is in Figure 6. We obtained a recall of 94% for Pneumonia class and Precision of 93%, which are pretty good.
+![fig6](https://user-images.githubusercontent.com/124452311/219940062-f967aaaa-7f0a-46a1-b805-61963181f94a.png)
+False Negatives for Model are just 23 and False Positives are 26. Our model is able to classify 575 x ray images correctly out of 624 test images.
+![confusion](https://user-images.githubusercontent.com/124452311/219940068-f4c34ca3-65e6-4872-9673-0f99bd969218.png)
 
 
 
