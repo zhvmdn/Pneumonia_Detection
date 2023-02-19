@@ -21,12 +21,12 @@ We used the GPU effectively in this project. First, we loaded the image data, fo
 
 ## Data and Methods 
 ### Information about the data 
-The model is built from a dataset from Kaggle and this dataset is divided into train, test and validation data. Overall, there are 5856 X ray images (JPEG) and each of the 3 folders are breached into 2 subfolders (Normal / Pneumonia), containing first chest X ray images of a healthy person and second is for the X-rays of a person with  pneumonia. Train set has 3875 x-ray images in class Pneumonia and 1341 x-ray images in class Normal. Test set has 390 x-ray images in class Pneumonia and 234 x-ray images in class Normal. Validation set has 8 x-ray images in class Pneumonia and 8 x-ray images in class Normal. As the validation data set has only 16 images,  validation images were moved to the train set. Then the training set was splitted into training and validation (90% - training, 10% - validation) in the ImageDataGenerator. Figure 1 depicts what x-rays of a person with pneumonia and a healthy person look like.
-
+The model is built from a dataset from Kaggle and this dataset is divided into train, test and validation data. Overall, there are 5856 X ray images (JPEG) and each of the 3 folders are breached into 2 subfolders (Normal / Pneumonia), containing first chest X ray images of a healthy person and second is for the X-rays of a person with  pneumonia. Train set has 3875 x-ray images in class Pneumonia and 1341 x-ray images in class Normal. Test set has 390 x-ray images in class Pneumonia and 234 x-ray images in class Normal. Validation set has 8 x-ray images in class Pneumonia and 8 x-ray images in class Normal. As the validation data set has only 16 images,  validation images were moved to the train set. Then the training set was splitted into training and validation (90% - training, 10% - validation) in the ImageDataGenerator. Figure 1 depicts what x-rays of a person with pneumonia and a healthy person look like.It can be noticed that normal x-rays have less white shading in the lung area and are more clear, while Pneumonia x-rays are more opaque.
 
 ![2023-02-19 (3)](https://user-images.githubusercontent.com/124452311/219939283-b6d361c7-9771-4844-88f0-fc15d524d089.png)
+                                                          Figure 1. X-ray images
 
-
+It was found that the images of pneumonia are much more than normal during familiarization with the data set. Bar graph (Figure 2) below proves that the number of normal x-ray images in the training set is less, or the data in that set is unbalanced. Also, Class 0 (Normal) weight is greater than class 1 weight (Pneumonia), meaning that the number of the normal x-ray images is less. To make the training data balanced, each normal image was weighted more to balance the data. Also, data augmentation was used for better accuracy and to avoid overfitting.
 
 ![bar char](https://user-images.githubusercontent.com/124452311/219938830-02ba38ba-d18e-4fdc-a344-527ac6d8cc14.png)
 
