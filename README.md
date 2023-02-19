@@ -70,4 +70,24 @@ As mentioned, our project is based on the method of training using CNN to identi
 ### Next steps 
 In our project, as shown earlier, we used the CNN model. In the further development of the project, we would like to use transfer learning from a pre-trained model (Figure 12). Therefore, we can achieve a high level of performance, even  with a small amount of data. During the training of this model, it will distinguish our data sets with accurate characteristics, and, naturally, less errors will be detected proportionally to this. In addition, we believe that using other datasets related to our project will be advantageous in training.
  Thus, showing these models to the very specialists who are fond of this and passing a test of strength with them. The idea is that more models will be created from different datasets and will be checked by specialists that we encountered during our project.
+![fig12](https://user-images.githubusercontent.com/124452311/219940881-95cf8610-02ce-4ed2-9039-b43e51ef7b3d.png)
+
+## References:
+
+1) Chest X-Ray Images (Pneumonia). (2018, March 24). Kaggle. https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+2) Shriram Vasudevan. (2021, January 23). How to Import (use) Kaggle datasets in Google Colab? [Video]. YouTube. https://www.youtube.com/watch?v=57N1g8k2Hwc
+GeeksforGeeks. (2022, September 1). How to move all files from one directory to another using Python. https://www.geeksforgeeks.org/how-to-move-all-files-from-one-directory-to-another-using-python/ 
+3) Saha, S. (2022, November 16). A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way. Medium. https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+Kundu, R., Das, R., Geem, Z. W., Han, G., & Sarkar, R. (2021). Pneumonia detection in chest X-ray images using an ensemble of deep learning models. PLOS ONE, 16(9), e0256630. https://doi.org/10.1371/journal.pone.0256630
+Singh, K. (2022, December 2). How to Improve Class Imbalance using Class Weights in Machine Learning. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2020/10/improve-class-imbalance-class-weights/
+A. (2020, July 20). TensorFlow Pneumonia Classification on X-rays. Kaggle. https://www.kaggle.com/code/amyjang/tensorflow-pneumonia-classification-on-x-rays
+F. (2021, June 6). deep-learning-with-python-notebooks/5.2-using-convnets-with-small-datasets.ipynb at master · fchollet/deep-learning-with-python-notebooks. GitHub. https://github.com/fchollet/deep-learning-with-python-notebooks/blob/master/first_edition/5.2-using-convnets-with-small-datasets.ipynb
+Çakır, R. (2021, December 12). Create Tensorflow Image Classification Model with Your Own Dataset in Google Colab. Medium. https://medium.com/analytics-vidhya/create-tensorflow-image-classification-model-with-your-own-dataset-in-google-colab-63e9d7853a3e
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image/ImageDataGenerator
+Amit, D. (2021, February 19). How can Tensorflow be used to create a pair using a file path for the flower dataset? https://www.tutorialspoint.com/how-can-tensorflow-be-used-to-create-a-pair-using-a-file-path-for-the-flower-dataset
+Vanshika, S. (2022, March 6). Pneumonia Detection using Convolutional Neural Network. [Video]. YouTube. https://youtu.be/5AeKIAAOzC0
+Damenian, P. (2017, September 19). Image with directories as labels for Tensorflow data.
+https://pontifex.dev/posts/images-with-directories-as-labels-for-tensorflow-data/
+Deshmukh, H. (2021c, December 16). Medical X-ray ⚕️ Image Classification using Convolutional Neural Network. Medium. https://towardsdatascience.com/medical-x-ray-%EF%B8%8F-image-classification-using-convolutional-neural-network-9a6d33b1c2a
+Ogunbiyi, I. A. (2022, June 2). How to Deploy a Machine Learning Model as a Web App Using Gradio. freeCodeCamp.org. https://www.freecodecamp.org/news/how-to-deploy-your-machine-learning-model-as-a-web-app-using-gradio
 
