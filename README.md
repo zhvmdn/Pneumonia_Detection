@@ -66,11 +66,10 @@ To test the model with images we used Gradio, which is a free and open-source Py
 
 ## Discussion 
 ### Critical review of results 
-We think that our model makes good predictions as test accuracy was 92%. 
-As mentioned, our project is based on the method of training using CNN to identify normal patients and patients with pneumonia on chest X-rays. The most successful CNN dataset was chosen for this purpose. The project was executed well, but during the simulation it was not without some difficulties.
-1) According to the data, as you can see, the model works very well, it is worth mentioning that in our model 49 photos do not take out the correct data. In the future, you can improve the results at a higher accuracy by resolving this error.
-2) Next, during the construction of the model, or rather in the image data generator, we encountered problems with the choice of parameters. We tried to choose a better generator, thereby using, for example, rotation ranges, rescales and so on.
-3) And finally, since our dataset was not balanced, we faced distribution problems. Having solved this problem, we came to the conclusion that we need more X-ray images for a more accurate result and preferably with equal data.
+We think that our model makes good predictions as test accuracy was 92%. As mentioned, our project is based on the method of training using CNN to identify normal patients and patients with pneumonia on chest X-rays. The project was executed well, but during the simulation it was not without some difficulties.
+1) According to the results, the model works very well, it is worth mentioning that the model could not correctly classify 49 images out of 624. In the future, we can improve the results with higher accuracy by resolving this error.
+2) In the ImageDataGenerator, we encountered problems with the choice of parameters. It took time and effort to find the right parameters and eventually chose rescale, rotation_range, shear_range, zoom_range and horizontal_flip.
+3) We faced an uneven distribution of observations since our dataset is not balanced. Having solved this problem with assigning weights to classes, we came to the conclusion that we need more x-ray images for a more accurate result and preferably with equal data.
 
 ### Next steps 
 In our project, as shown earlier, we used the CNN model. In the further development of the project, we would like to use transfer learning from a pre-trained model (Figure 12). Therefore, we can achieve a high level of performance, even  with a small amount of data. During the training of this model, it will distinguish our data sets with accurate characteristics, and, naturally, less errors will be detected proportionally to this. In addition, we believe that using other datasets related to our project will be advantageous in training.
