@@ -28,7 +28,9 @@ The model is built from a dataset from Kaggle and this dataset is divided into t
 
 It was found that the images of pneumonia are much more than normal during familiarization with the data set. Bar graph (Figure 2) below proves that the number of normal x-ray images in the training set is less, or the data in that set is unbalanced. Also, Class 0 (Normal) weight is greater than class 1 weight (Pneumonia), meaning that the number of the normal x-ray images is less. To make the training data balanced, each normal image was weighted more to balance the data. Also, data augmentation was used for better accuracy and to avoid overfitting.
 
-![bar char](https://user-images.githubusercontent.com/124452311/219938830-02ba38ba-d18e-4fdc-a344-527ac6d8cc14.png)
+![bar](https://user-images.githubusercontent.com/124452311/219939584-54c4d96e-2e9e-42b8-86c1-87f65325520b.png)
+
+  keras.preprocessing.image class Image Data Generator generates batches of tensor image data with real-time data augmentation. We do not have enough diverse sets of images, so for data cleaning and preprocessing data augmentation creates more training samples. Parameters such as rescale (img pixels between 0 and 1), rotation_range (range for rotation), shear_range (shear intensity), zoom_range (the image is enlarged) and horizontal_flip (randomly flips the images horizontally) were used for augmentation on the training set. All images were rescaled by 1/255 and  were resized  to 150x150. Validation split is set to 0.1, so training data (90%) and validation data (10%) will be created from the data of the training set. flow_from_directory reads the images from folders. Target size was set to 150x150 and batch size is 32. Image batch shape : (32, 150, 150, 3).
 
 
 
