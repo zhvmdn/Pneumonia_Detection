@@ -5,6 +5,7 @@ Group: BDA-2102
 Students: Zhauymbayeva Madina, Serikkazy Ulpan 
 
 Link to GitHub: https://github.com/zhvmdn/Pneumonia_Detection 
+
 https://github.com/zhvmdn/Pneumonia_Detection.git 
 
 Link to Video: https://www.youtube.com/watch?v=JOVYkFSyomk
