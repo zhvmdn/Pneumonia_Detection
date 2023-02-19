@@ -6,6 +6,7 @@ Pneumonia is one of the very contagious diseases, the so-called "Lung Infection"
 
 ### Literature review with links (another solutions):
 Author of this model used a custom deep convolutional neural network and retraining a pre-trained “InceptionV3" model to identify pneumonia from x-ray images. For retraining, he removed the output layers, freezed the first few layers, and fine-tuned the model for two Pneumonia and Normal classes..
+
 https://github.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning
 
 Author of this project divided the train set into training and validation data. He solved the problem of data imbalance using stratified class. Training and validation set split changed from 99:1 ratio to 90:10 ratio.
