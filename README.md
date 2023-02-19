@@ -10,9 +10,11 @@ Author of this model used a custom deep convolutional neural network and retrain
 https://github.com/anjanatiha/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning
 
 Author of this project divided the train set into training and validation data. He solved the problem of data imbalance using stratified class. Training and validation set split changed from 99:1 ratio to 90:10 ratio.
+
 https://www.kaggle.com/code/wirachleelakiatiwong/pneumania-classification-transfered-cnn/notebook
 
 In this project, the author compared pre-trained models such as VGG16, CNN_2, ResNet, InceptionNet, DenseNet  with their mean absolute error. Also, the author built his own CNN model that showed 91% of accuracy.
+
 https://github.com/0xpranjal/Pneumonia-Detection-using-Deep-Learning
 
 ### Current work (description of the work) 
