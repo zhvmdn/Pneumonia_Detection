@@ -55,4 +55,14 @@ ROC Curve with AUC score (0.97) is shown below.
 
 ![fig9](https://user-images.githubusercontent.com/124452311/219940453-9e3eb27d-d04d-4c40-8afa-a1840fe0db7d.png)
 
+To test the model with images we used Gradio, which is a free and open-source Python library that allows us to develop an easy-to-use customizable component demo for a machine learning model that anyone can use anywhere. Figure 10 and Figure 11 depicts how the model classified correctly normal and pneumonia x-ray images which were taken from the test set’s normal and pneumonia folders.
 
+![fig10-11](https://user-images.githubusercontent.com/124452311/219940702-ecbc4666-c222-4dac-a79f-8b3a19c56bcd.png)
+
+## Discussion 
+### Critical review of results 
+We think that our model makes good predictions as test accuracy was 92%. 
+As mentioned, our project is based on the method of training using CNN to identify normal patients and patients with pneumonia on chest X-rays. The most successful CNN dataset was chosen for this purpose. The project was executed well, but during the simulation it was not without some difficulties.
+1) According to the data, as you can see, the model works very well, it is worth mentioning that in our model 49 photos do not take out the correct data. In the future, you can improve the results at a higher accuracy by resolving this error.
+2) Next, during the construction of the model, or rather in the image data generator, we encountered problems with the choice of parameters. We tried to choose a better generator, thereby using, for example, rotation ranges, rescales and so on.
+3) And finally, since our dataset was not balanced, we faced distribution problems. Having solved this problem, we came to the conclusion that we need more X-ray images for a more accurate result and preferably with equal data.
